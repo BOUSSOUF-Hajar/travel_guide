@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Travel<span>Bloom</span></div>
+
+        <ul class="menu">
+            <li><a href="travel_recommendation.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <div class="search-area">
+            <input type="text" id="search-input" placeholder="Search...">
+            <button id="search-btn">Search</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+    </nav>
+
+    <!-- PAGE LAYOUT (LEFT CONTENT + RIGHT RESULTS) -->
+    <div class="page-container">
+
+        <!-- LEFT SIDE -->
+        <div class="left-section">
+
+            <div class="hero">
+                <h1>EXPLORE <br> DREAM <br> DESTINATION</h1>
+                <p>
+                    It encourages exploration of unfamiliar territories, embracing diverse cultures
+                    and landscapes while pursuing the desired destination that captivates the heart.
+                </p>
+                <button class="book-btn">BOOK NOW</button>
+            </div>
+
+            <div class="social-icons">
+                <button>Facebook</button>
+                <button>Instagram</button>
+                <button>Twitter</button>
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE – Results appear here -->
+        <div class="right-section">
+            <div id="results"></div>
+        </div>
+
+    </div>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>

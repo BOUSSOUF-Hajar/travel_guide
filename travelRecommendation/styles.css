@@ -1,0 +1,367 @@
+/* BASIC RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #0ab3ff;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.search-area {
+    display: flex;
+    gap: 10px;
+}
+
+.search-area input {
+    padding: 8px;
+    width: 180px;
+}
+
+.search-area button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+/* PAGE LAYOUT */
+.page-container {
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+}
+
+/* LEFT SECTION */
+.left-section {
+    width: 45%;
+    padding: 10px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 16px;
+    width: 80%;
+}
+
+.book-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #0ab3ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.social-icons button {
+    margin-right: 10px;
+    padding: 8px 15px;
+    margin-top: 20px;
+}
+
+/* RIGHT SECTION */
+.right-section {
+    width: 55%;
+    max-height: 85vh;
+    overflow-y: auto;
+}
+
+/* RESULT CARD */
+.result-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+}
+
+.result-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.result-card h3 {
+    margin: 10px 0;
+}
+
+.result-card p {
+    margin-bottom: 10px;
+}
+
+.result-card button {
+    padding: 8px 15px;
+    background: #0ab3ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+/* MAIN SIMPLE */
+main.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+main.container h1,
+main.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+main.container p {
+    text-align: center;
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* TEAM SECTION SIMPLE */
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+/* CONTACT SECTION */
+#contact {
+    background: #f3f7ff;
+    padding: 60px 20px;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.contact-container label {
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.contact-container input:focus,
+.contact-container textarea:focus {
+    border-color: #4a7ff6;
+    box-shadow: 0 0 5px rgba(74, 127, 246, 0.3);
+}
+
+.contact-container button {
+    width: 100%;
+    padding: 14px;
+    background: #4a7ff6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-container button:hover {
+    background: #2f66e0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #0ab3ff;
+    color: white;
+}
+
+.nav-links a.active {
+    background-color: #0ab3ff;
+    color: white;
+    font-weight: bold;
+}
+/* MAIN CONTACT SIMPLE */
+main.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+main.container h1 {
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 600;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.contact-form label {
+    font-weight: 500;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #0ab3ff;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #0ab3ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #087ac1;
+}
+
+/* FOOTER SIMPLE */
+footer.footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #f8f8f8;
+    color: #555;
+    margin-top: 40px;
+}
+/* IMAGE DE FOND */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    /* Image de fond */
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1024&q=80'); /* change le chemin */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Pour que tout le contenu soit visible */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Fond semi-transparent pour le contenu */
+main.container,
+header.navbar,
+footer.footer {
+    background-color: rgba(255, 255, 255, 0.85); /* blanc avec transparence */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+/* Ajuster le header et footer pour ne pas être trop larges */
+header.navbar,
+footer.footer {
+    max-width: 90%;
+    margin: 20px auto;
+}

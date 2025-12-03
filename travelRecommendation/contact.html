@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact Us - TravelBloom</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAVBAR sans barre de recherche -->
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Travel<span>Bloom</span></div>
+
+        <ul class="menu">
+            <li><a href="travel_recommendation.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <div class="search-area">
+            <input type="text" id="search-input" placeholder="Search...">
+            <button id="search-btn">Search</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+    </nav>
+
+
+  <main class="container">
+    <h1>Contactez-nous</h1>
+    <form id="contact-form" class="contact-form" action="#" method="post" onsubmit="alert('Formulaire soumis (simulation).'); return false;">
+      <label for="name">Nom</label>
+      <input id="name" name="name" type="text" required />
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 TravelBloom</p>
+  </footer>
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>
